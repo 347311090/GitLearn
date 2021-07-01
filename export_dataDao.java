@@ -15,6 +15,7 @@ import com.school.demo.entiy.research_load;
 //Git has a mutable index called stage.
 //Git tracks changes.
 //Git tracks changes of files.
+//Creating a new branch is quick.
 @Mapper
 public interface export_dataDao {
 	public List<project_load> select_project(@Param ("rpeopleName")String Name);
