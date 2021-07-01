@@ -10,7 +10,8 @@ import com.school.demo.entiy.book_load;
 import com.school.demo.entiy.paper_load;
 import com.school.demo.entiy.project_load;
 import com.school.demo.entiy.research_load;
-
+//Git is a distributed version control system.
+//		Git is free software distributed under the GPL.
 @Mapper
 public interface export_dataDao {
 	public List<project_load> select_project(@Param ("rpeopleName")String Name);
